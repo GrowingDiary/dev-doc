@@ -6,6 +6,7 @@
    # 1. 创建工作目录；
    sudo mkdir -p /data/workspaces
    sudo chown -R u:u /data/workspaces/
+   cd /data/workspaces/
    
    # 2. 下载 HttpRunnerManager 源码；
    git clone https://github.com/HttpRunner/HttpRunnerManager.git
