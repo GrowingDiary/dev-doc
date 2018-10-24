@@ -8,12 +8,12 @@
 
 # 2 安装 VirtualBox
 
-![](001_VirtualBox_1.png)
+![](images/001_VirtualBox_1.png)
 
-![](001_VirtualBox_2.png)
+![](images/001_VirtualBox_2.png)
 
-![](001_VirtualBox_3.png)
+![](images/001_VirtualBox_3.png)
 
-![](001_VirtualBox_4.png)
+![](images/001_VirtualBox_4.png)
 
-![](001_VirtualBox_5.png)
+![](images/001_VirtualBox_5.png)
