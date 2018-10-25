@@ -140,30 +140,3 @@ source ~/.zshrc
 ```
 
 使用时，只需要 `j data` 就可以跳转到历史中路径中包含 `data` 的路径中。
-
-## 3.2 incr
-
-[incr](http://mimosa-pudica.net/zsh-incremental.html) 可以进行自动补全，快速完成命令等。
-
-安装步骤如下：
-
-``` sh
-# 1. 创建插件路径；
-mkdir -p ~/.oh-my-zsh/plugins/incr
-
-# 2. 下载插件；
-cd ~/.oh-my-zsh/plugins/incr
-wget http://mimosa-pudica.net/src/incr-0.2.zsh
-
-# 3. 在 oh-my-zsh 中增加配置；
-vi ~/.zshrc
-
-# 4. 在文件末尾添加；
-source ~/.oh-my-zsh/plugins/incr/incr*.zsh
-
-# 5. 重新加载配置；
-source ~/.zshrc
-```
-
-
-
