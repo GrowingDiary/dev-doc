@@ -35,6 +35,7 @@ ssh u@192.168.100.110
 
 # 2. 创建 authorized_keys 文件；
 mkdir ~/.ssh
+cd ~/.ssh
 vi authorized_keys
 
 # 3. 复制生成的公钥 devops.pem.pub 内容，并粘贴到 authorized_keys 文件后，保存并关闭；
