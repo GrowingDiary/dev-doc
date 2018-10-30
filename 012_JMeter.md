@@ -31,7 +31,6 @@ Apache JMeter 是 Apache 组织开发的基于 Java 的压力测试工具。用�
 
    ``` sh
    JMETER_HOME="/opt/apache-jmeter-5.0"
-   PATH=$PATH:$JMETER_HOME/bin
    ```
 
 6. 更新配置；
@@ -39,8 +38,21 @@ Apache JMeter 是 Apache 组织开发的基于 Java 的压力测试工具。用�
    ``` sh
    source /etc/environment
    ```
+   
+7. 将 JMeter 加入 PATH 中；
 
-7. 验证 JMeter 安装成功；
+   ``` sh
+   # 创建并编辑配置文件；
+   sudo vi /etc/profile.d/jmeter.sh
+   
+   # 输入以下内容，保持退出；
+   export PATH=$PATH:$JMETER_HOME/bin
+   
+   # 重新加载配置；
+   source /etc/profile.d/jmeter.sh
+   ```
+
+8. 验证 JMeter 安装成功；
 
    ``` sh
    jmeter -v
