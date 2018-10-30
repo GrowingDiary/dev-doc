@@ -112,6 +112,22 @@ sudo apt install zsh
 
 # 2. 安装 oh-my-zsh;
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# 3. 配置加载环境；
+sudo vi /etc/zsh/zprofile
+
+# 4. 输入以下内容，加载 /etc/profile.d/*.sh 内容，保存退出；
+if [ -d /etc/profile.d ]; then
+  for i in /etc/profile.d/*.sh; do
+    if [ -r $i ]; then
+      . $i
+    fi
+  done
+  unset i
+fi
+
+# 5. 加载配置；
+source /etc/zsh/zprofile
 ```
 
 安装好 oh-my-zsh 后，可以选择性安装一些插件，增强功能。
