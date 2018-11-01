@@ -6,7 +6,7 @@ Apache JMeter 是 Apache 组织开发的基于 Java 的压力测试工具。用�
 
    ``` sh
    cd ~
-   wget http://mirrors.shu.edu.cn/apache//jmeter/binaries/apache-jmeter-5.0.tgz
+   wget https://mirrors.tuna.tsinghua.edu.cn/apache/jmeter/binaries/apache-jmeter-5.0.tgz
    ```
 
 2. 解压 JMeter 安装包；
