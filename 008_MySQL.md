@@ -29,8 +29,15 @@ MySQL 所使用的 SQL 语言是用于访问数据库的最常用标准化语言
    ``` mysql
    GRANT ALL ON *.* TO 'u'@'127.0.0.1' IDENTIFIED BY 'u';
    ```
-
-5. 退出并用创建的新用户登录；
+5.赋予用户u创建grant权限;
+   ``` mysql
+   Gupdate user set grant_priv='Y' where user='u';
+   ```
+6.刷新
+   ``` mysql
+flush privileges;
+   ```
+7. 退出并用创建的新用户登录；
 
    ``` sh
    mysql -uu -h127.0.0.1 -P3306 -pu
