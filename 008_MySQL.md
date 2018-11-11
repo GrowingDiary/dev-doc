@@ -33,6 +33,7 @@ MySQL 所使用的 SQL 语言是用于访问数据库的最常用标准化语言
 5.赋予用户u创建grant权限;
 
    ``` mysql
+   use mysql
    update user set grant_priv='Y' where user='u';
    ```
    
