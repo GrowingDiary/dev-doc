@@ -17,3 +17,10 @@
 ![](images/001_VirtualBox_4.png)
 
 ![](images/001_VirtualBox_5.png)
+# 2 接口穿透
+1.NAT模型,点击高级,端口转发
+![](images/001_VirtualBox_6.png)
+2.选择子系统ip(虚拟机IP)
+![](images/001_VirtualBox_7.png)
+3.映射端口号,最好端口号对应,方便记录
+![](images/001_VirtualBox_8.png)
